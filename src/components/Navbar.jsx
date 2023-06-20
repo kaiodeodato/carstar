@@ -63,31 +63,31 @@ export default function Navbar() {
       >
         <ul className="w-96 sm:w-auto bg-indigo-1000 rounded-md text-center text-slate-600 font-medium flex flex-col p-4 md:p-0 mt-4 bg-slate-200 md:bg-transparent   md:text-sm lg:text-lg md:flex-row md:space-x-8 md:mt-0">
           <li>
-            <a
-              href="/carstar"
+            <Link
+              to="/carstar"
               className="block py-2 transition-colors text-slate-700 hover:text-slate-400 "
               onClick={falseMenu}
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/carstar/about"
+            <Link
+              to="/carstar/about"
               className="block py-2 transition-colors text-slate-700 hover:text-slate-400 "
               onClick={falseMenu}
             >
               About Us
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/carstar/models"
+            <Link
+              to="/carstar/models"
               className="block py-2 transition-colors text-slate-700 hover:text-slate-400  "
               onClick={falseMenu}
             >
               Models
-            </a>
+            </Link>
           </li>
           <li>
             <a
