@@ -90,31 +90,31 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <a
-              href="/carstar/testimonials"
+            <Link
+              to="/carstar/testimonials"
               className="block py-2 transition-colors text-slate-700 hover:text-slate-400  "
               onClick={falseMenu}
             >
               Testimonials
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/carstar/ourteam"
+            <Link
+              to="/carstar/ourteam"
               className="block py-2 transition-colors text-slate-700 hover:text-slate-400  "
               onClick={falseMenu}
             >
               Our Team
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/carstar/contact"
+            <Link
+              to="/carstar/contact"
               className="block py-2 transition-colors text-slate-700 hover:text-slate-400 "
               onClick={falseMenu}
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div> 
@@ -125,9 +125,9 @@ export default function Navbar() {
       {
      
       <div className="hidden sm:flex flex-row items-center justify-center">
-        <a href='/carstar/contact' className='cursor-pointer mx-4 transition-colors text-slate-700 hover:text-slate-400'>
+        <Link to='/carstar/contact' className='cursor-pointer mx-4 transition-colors text-slate-700 hover:text-slate-400'>
           Sign in
-        </a>     
+        </Link>     
         <span className='cursor-pointer mx-4 transition-colors bg-red-500 text-slate-100 hover:text-red-500 hover:bg-slate-200 px-3 py-2'>
           Register
         </span>
